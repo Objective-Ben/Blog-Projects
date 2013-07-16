@@ -12,7 +12,6 @@
 		B551E78E1783DBDF001F65AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B551E78D1783DBDF001F65AE /* CoreGraphics.framework */; };
 		B551E7941783DBDF001F65AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B551E7921783DBDF001F65AE /* InfoPlist.strings */; };
 		B551E7961783DBDF001F65AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B551E7951783DBDF001F65AE /* main.m */; };
-		B551E79A1783DBDF001F65AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B551E7991783DBDF001F65AE /* AppDelegate.m */; };
 		B551E79C1783DBDF001F65AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B551E79B1783DBDF001F65AE /* Default.png */; };
 		B551E79E1783DBDF001F65AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B551E79D1783DBDF001F65AE /* Default@2x.png */; };
 		B551E7A01783DBDF001F65AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B551E79F1783DBDF001F65AE /* Default-568h@2x.png */; };
@@ -30,8 +29,6 @@
 		B551E7931783DBDF001F65AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B551E7951783DBDF001F65AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B551E7971783DBDF001F65AE /* CategoriesBlogPost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CategoriesBlogPost-Prefix.pch"; sourceTree = "<group>"; };
-		B551E7981783DBDF001F65AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B551E7991783DBDF001F65AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B551E79B1783DBDF001F65AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B551E79D1783DBDF001F65AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B551E79F1783DBDF001F65AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -86,8 +83,6 @@
 		B551E78F1783DBDF001F65AE /* CategoriesBlogPost */ = {
 			isa = PBXGroup;
 			children = (
-				B551E7981783DBDF001F65AE /* AppDelegate.h */,
-				B551E7991783DBDF001F65AE /* AppDelegate.m */,
 				B551E7A11783DBDF001F65AE /* MainStoryboard.storyboard */,
 				B551E7A41783DBDF001F65AE /* ViewController.h */,
 				B551E7A51783DBDF001F65AE /* ViewController.m */,
@@ -179,7 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B551E7961783DBDF001F65AE /* main.m in Sources */,
-				B551E79A1783DBDF001F65AE /* AppDelegate.m in Sources */,
 				B551E7A61783DBDF001F65AE /* ViewController.m in Sources */,
 				B551E7B11783DFC9001F65AE /* UIColor+MoreYellow.m in Sources */,
 			);
@@ -304,6 +298,7 @@
 				B551E7AB1783DBDF001F65AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

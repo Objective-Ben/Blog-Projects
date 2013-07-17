@@ -1,3 +1,5 @@
+// Function definitions for our new yellow colors.
+
 #import "UIColor+MoreYellow.h"
 
 @implementation UIColor (MoreYellow)
